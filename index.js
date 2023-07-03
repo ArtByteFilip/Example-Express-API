@@ -1,12 +1,9 @@
-const { response } = require("express");
 const express = require("express");
-const internal = require("stream");
-const { inherits } = require("util");
 
 const app = express();
 
 app.get("/", (req, res) => {
-    res.json({msg: "Hellow World :D"});
+    res.json({msg: "Not to day!"});
 });
 
 
